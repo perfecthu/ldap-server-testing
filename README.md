@@ -24,7 +24,7 @@
 		```
 		openssl req -new -sha256 -out private.csr -key private.key -config ssl.conf
 		```
-		You will get a file `private.csr`
+		You will be asked a series of questions about your certificate. Then you will get a file `private.csr`
 		
 	* check the CSR:
 		```
